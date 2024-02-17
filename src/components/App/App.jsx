@@ -33,7 +33,7 @@ export const App = () => {
       <Header />
       <Section>
         <Container>
-          <SearchForm onSubmit={addTodo} />
+          <SearchForm />
 
           {todos.length === 0 && (
             <Text textAlign="center">There are no any todos ... </Text>
