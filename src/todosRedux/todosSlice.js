@@ -8,7 +8,6 @@ const todosSlice = createSlice({
 
   reducers: {
     addTodo: () => {},
-
     removeTodo: () => {},
   },
 });
